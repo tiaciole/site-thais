@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="scripts.js"></script>
+    <link rel="stylesheet" href="styleContato.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title>Contato</title>
+</head>
+<body>
+
+    <header>
+        <div class="header-inicio">
+            <a href="https://www.instagram.com/thaisaciole_lashdesigner/" target="_blank"><img src="imagens/instagram.png" alt=""></a>
+    
+           <span class="tel" >  (11) 98945-5385</span>
+        </div>
+        <div class="navegacao">
+            <p>Estudio Thais Aciole</p>
+    
+            <nav  id="menu" class="menu">
+                <ul>
+                    <li><a href="index.html">Pagina Inicial</a></li>
+                    <li><a href="">Cílios</a></li>
+                    <li><a href="fotos.html">Galeria de Fotos</a></li>
+                    <li><a href="contato.html">Agende seu Horario</a></li>
+                    <li onclick="abrirMenu()" class="tres-linhas" id="tres-linhas">&#9776</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+
+    <h2 class="h2_contato">Contato</h2>
+
+    <div container-contato-flex>
+        <div class="div-formulario">
+            <form class="formulario" action="https://api.staticforms.xyz/submit" method="POST">
+                <input type="hidden" name="accessKey" value="aeec1b99-9f99-47bc-a7d0-149176a58e37">
+                <input type="hidden" name="redirectTo" value="https://www.omelete.com.br">
+
+               
+                <input class="nome" type="text" name="name" placeholder="Nome">
+                
+                
+                <input class="email" type="email" name="email" placeholder="E-mail">
+
+                
+            <textarea class="area-texto" name="message" id="" cols="30" rows="4" placeholder="Menssagen"></textarea>
+
+            <button>Enviar</button>
+            
+            </form>
+
+            <div class="contato-lateral">
+                <p><strong>E-mail</strong></p>
+                <p>tataciole@gmail.com</p>
+                <br>
+                <p><strong>Telefone</strong></p>
+                <p>(11) 98945-5385</p>
+
+            </div>
+        </div>
+    </div>   
+    
+    <a class="whatsapp-link" href="https://web.WhatsApp.com/send?phone=5511989455385" target="_blank">
+        <i class="fa fa-whatsapp"></i>
+    </a>
+  
+</body>
+</html>

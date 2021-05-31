@@ -1,0 +1,758 @@
+/* Mobile First*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+ 
+
+}
+
+body{
+    background-color: #dfe6e9;
+}
+
+.header-inicio{
+    background-color: #CB997E;
+    height: 100px;
+    box-sizing: border-box;
+    
+}
+
+.header-inicio img{
+    width: 50px;
+    margin-top: 22px;
+    margin-left: 20px;
+    
+}
+
+
+.tel{
+    float: right;
+    margin-top: 40px;
+    margin-right: 50px;
+    font-weight: bold;
+    font-family: 'Candal', sans-serif;
+}
+
+.icontel{
+    
+    margin-right: 80px;
+}
+
+
+
+header{
+    box-shadow: 2px 5px 8px;
+  
+}
+.navegacao{
+    width: 100%;
+    height: 80px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F0EFEB;
+
+  
+}
+
+.navegacao p{
+    height: 25px;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: violet;
+    width: 200px;
+    
+}
+
+.menu{
+    float: right;
+    padding: 10px;
+    margin-top: -75px;
+    
+    
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu li{
+   margin-bottom: 20px;
+   display: none;
+   padding: 10px;
+ 
+   
+}
+
+.menu li:hover{
+    background-color: #DDBEA9;
+    
+}
+
+nav.menu li.tres-linhas{
+    display: inline;
+    font-size: 30px;
+    margin-top: 30px;
+    
+}
+
+.tres-linhas:hover{
+    cursor:pointer;
+}
+
+.menujs{
+    float: right;
+    padding: 20px;  
+    background-color: rgb(228, 227, 227);
+    position: absolute;
+    right: 0px;
+    
+   
+}
+
+.menujs ul{
+    list-style: none;
+   
+}
+
+.menujs li{
+    transition: 1s;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  
+}
+
+.menujs li:hover{
+    background-color: #DDBEA9;
+}
+
+
+
+
+
+.container{
+    background-color:#dfe6e9;
+    max-width: 790px;
+    margin: auto;
+    
+}
+
+
+.banner-inicio div{
+    background-image: url("imagens/bannercelular.jpg");
+    width: 100%;
+    height: 350px;
+    margin-top: 20px;
+    background-size: cover;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    
+}
+
+.info{
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin: auto;
+    box-sizing: border-box;
+    
+}
+
+.info h3{
+    text-align: left;
+    margin-top: 15px;
+    font-family: 'Prompt', sans-serif;
+    
+}
+
+.info p{
+    margin-top: 20px;
+    text-align: left;
+    line-height: 55px;
+    font-size: 35px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: bold;
+    
+}
+
+
+
+.foto-thais-div{
+    max-width: 420px;
+    height: 315px;
+    margin: auto;
+    margin-top: 50px;
+    background-image: url("imagens/fundorosa.png") ;
+    background-repeat:repeat;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.foto-thais{
+   width: 240px;
+   margin-top: 18px ;
+   
+    
+}
+
+.texto-aplicacao{
+    font-family: 'Candal', sans-serif;
+    color: rgb(148, 123, 238);
+    text-align: center;
+    margin: 25px;
+}
+
+.metodo-div{
+    margin: auto;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 250px;
+   
+}
+
+.metodo-texto{
+    margin-top: 50px; 
+}
+
+.metodo-div p{
+    max-width: 680px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    text-align: center;
+    color: rgb(73, 71, 71);
+    font-weight: bold;
+   
+}
+
+.recomendacao{
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: 'Candal', sans-serif;
+}  
+
+.primeiro-grid{
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: 400px;
+    width: 500px;
+    margin: auto;
+    background-image: url("imagens/fundo3.jpg");
+
+
+}
+
+.primeiro-bloco{
+    margin: auto;
+    display: flex;
+    width:500px;
+    flex-direction: column;
+}
+
+.primeiro-grid div{
+    margin: auto;
+    width: 350px;
+    height: 350px;
+   
+}
+
+.primeiro-grid div.txt1{
+    margin: auto;
+    width: 350px;
+    height: 280px;
+   
+}
+
+#btFechar{
+    position: absolute;
+    top: 35px;
+    right: 25px;
+    color: white;
+    border: 1px solid white;
+    padding: 05px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+
+.img1{
+    height: 280px;
+    margin-top: 50px;
+    background-image: url("imagens/01.jpg");
+    background-size: cover;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+
+
+.txt1{
+    
+    height: 250px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.paragrafo1{
+    margin-top: 25px;
+}
+
+.paragrafo2{
+    height: 50px;
+}
+
+.whatsapp-link{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+
+}
+
+.fa-whatsapp{
+    margin-top: 16px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: #CB997E;
+    width: 100% !important;
+}
+
+.footer1{
+    margin-top: 5px;
+}
+
+.assinatura{
+    font-size: 13px;
+    color: black;
+}
+
+
+/*############################ Inicio Responsividade ############################################*/
+
+@media (min-width: 768px) {
+	.nome-estudio{
+        width: 270px;
+    }
+
+    .menu{
+        width: 50px;
+        
+    }
+
+    .foto-thais-div{
+        max-width: 520px;
+        height: 415px;
+        margin-top: 50px;
+    }
+
+    .foto-thais{
+        width: 300px;
+        margin-top: 28px ;
+    }
+
+     .container{
+        max-width: 920px;
+
+    }
+
+    .texto-aplicacao{
+        font-size: 30px;
+    }
+
+    .recomendacao{
+        max-width: 650px;
+      
+    } 
+
+    h3{
+        margin-top: 20px;
+    }
+
+    .primeiro-grid{
+        display: grid;
+        grid-column-gap: 5px;
+        grid-template-columns: 364px 364px;
+        width: 733px;
+        margin: auto;
+        text-align: center;
+    
+    }
+    
+    .primeiro-bloco{
+        display: flex;
+        width:360px;
+        flex-direction: column;
+    }
+    
+    .primeiro-grid div.txt1{
+        margin: auto;
+        width: 350px;
+        height: 280px;
+    }
+
+    .txt1{
+    
+        height: 260px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .paragrafo1{
+        margin-top: 25px;
+    }
+    
+    .paragrafo2{
+        height: 10px;
+    }
+
+}
+
+/* Monitor Tubão */
+@media (min-width: 992px) {
+
+    .nome-estudio{
+        width: 150px;
+    }
+
+    .menu{
+        padding: 1px;
+        text-align: end;
+        width: auto;
+       
+    }
+    
+    .menu ul{
+        list-style: none;
+        display: inline-block;
+        padding: 10px;
+        margin-top: 10px;
+        margin-right: 50px;
+        
+        
+    }
+    
+    .menu li{
+       margin-bottom: 10px;
+       display: inline-block;
+       margin-right: 35px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-weight: bold;
+    }
+    
+    nav.menu li.tres-linhas{
+        display: none;
+       
+    }
+
+ 
+
+
+    .container{
+        max-width: 992px;
+        margin: auto;
+        
+    }
+
+    .foto-thais-div{
+        box-sizing: border-box;
+        float: right;
+        width: 650px;
+        margin-top: 50px;
+        margin-right: 20px;
+        background-image: url("imagens/fundorosa.png") ;
+        background-repeat:repeat;
+        
+        text-align: center;
+    }
+
+    .foto-thais{
+        width: 300px;
+        margin-top: 28px ;
+    }
+
+    .banner-info{
+        background-color: #dfe6e9;
+        max-width: 1070px;
+        height: 600px;
+        margin: auto;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+    .info{
+        max-width: 350px;
+        height: 400px;
+        margin-top: 50px;
+        float: left;
+        
+    }
+
+    .info p{
+        margin-top: 20px;
+        text-align: left;
+        line-height: 55px;
+        font-size: 35px;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-weight: bold;
+        
+    }
+
+    .info h3{
+        text-align: left;
+        font-family: 'Prompt', sans-serif;
+        
+    }
+
+    .banner-inicio div{
+        width: 100%;
+        height: 300px;
+        background: url("imagens/bannerrosto.png");
+        background-size: cover;
+        margin-top: 20px;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+    }
+
+    .recomendacao{
+        max-width: 850px;
+      
+    }  
+
+   /*########### grid ###############*/
+
+   .primeiro-grid{
+    display: grid;
+    grid-column-gap: 45px;
+    grid-template-columns: 283px 283px 283px;
+    width: 990px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.primeiro-bloco{
+    display: flex;
+    width:250px;
+    flex-direction: column;
+}
+
+.primeiro-grid div{
+    width: 300px;
+    height: 300px;
+}
+
+.primeiro-grid div.txt1{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+   
+}
+
+.txt1{
+
+    height: 240px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.paragrafo1{
+    margin-top: 25px;
+}
+
+.paragrafo2{
+    height: 10px;
+}
+
+
+
+
+/* Desktop tela normal de computador */
+@media (min-width: 1200px) {
+
+    .container{
+        max-width: 1200px;
+        margin: auto;
+        
+    }
+
+
+    
+    .header-inicio img{
+        width: 50px;
+        margin-top: 22px;
+        margin-left: 20px;
+        max-width: 1900px;
+        
+    }
+
+    .banner-info{
+        background-color: #dfe6e9;
+        max-width: 1170px;
+        height: 600px;
+        margin: auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .info{
+        margin-left: 50px;
+    
+    }
+
+    /* ################# grid #####################*/
+
+   
+
+    .primeiro-grid{
+        grid-template-columns: 254px 254px 254px 254px;
+        width: 1172px;
+        background-image: url("imagens/fundo3.jpg");
+    }
+    
+    
+    .primeiro-grid div{
+        width: 270px;
+    }
+    
+    .primeiro-grid div.txt1{
+        width: 270px;
+    }
+
+}
+
+/* SmartTV */
+@media (min-width: 1900px) {
+
+    header{
+        max-width: 1900px;
+        margin: auto;
+    }
+
+    .container{
+        max-width: 1350px;
+        margin: auto; 
+    }
+
+    .banner-info{
+        background-color: #dfe6e9;
+        max-width: 1170px;
+        height: 600px;
+        margin: auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .banner{
+        max-width: 1200px;
+    }
+
+    .info{
+        margin-left: 50px;
+    
+    }
+
+    .metodo-texto{
+        margin-top: 50px; 
+    }
+    
+    .metodo-div p{
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 30px;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 30px;
+        text-align: center;
+        color: rgb(170, 162, 162);
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    /* ################# grid #####################*/
+
+    .primeiro-grid{
+       
+        display: grid;
+        grid-column-gap: 45px;
+        grid-template-columns: 283px 283px 283px 283px 283px;
+        width: 1650px;
+        align-items: center;
+        text-align: center;
+        
+    }
+    
+    .primeiro-bloco{
+        display: flex;
+        width:250px;
+        flex-direction: column;
+    }
+    
+    .primeiro-grid div{
+        width: 300px;
+        height: 300px;
+    }
+    
+    .primeiro-grid div.txt1{
+        margin: auto;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .txt1{
+        height: 240px;
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+    
+    .paragrafo1{
+        margin-top: 25px;
+    }
+    
+    .paragrafo2{
+        height: 10px;
+    }
+
+
+    
+
+   
+
+
+    
+}}

@@ -1,0 +1,191 @@
+body{
+    background-color: #dfe6e9;
+}
+
+.imgtel{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+
+}
+.formulario{
+    overflow: auto;
+    max-width: 710px;
+    margin: auto;
+    padding: 35px;
+    overflow: hidden;
+}
+
+.h2_contato{
+    padding: 20px;
+    background-color: #B5B484;
+    max-width:710px;
+    border-radius: 05px;
+    color: white;
+    margin: 50px 0 0px 0px;
+
+}
+
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-left: -10px;
+    font-size: 12pt;
+    resize: none;/* para o ext area não ser editavel no tamanho*/
+    border-radius: 5px;
+    border-width: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+input:focus,textarea:focus{
+   outline: 1px;
+   border-color: rgb(128, 128, 248);
+}
+
+button{
+    width: 90px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    border-width: 1px;
+    margin-left: -10px;
+}
+
+button:hover{
+    color: white;
+    transition: 1s ease;
+    background-color: rgb(123, 121, 230);
+    
+
+}
+
+.div-formulario{
+    max-width: 600px;
+    
+    
+}
+
+.contato-lateral{
+    width: 200px;
+    margin:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.container-contato-flex{
+    max-width: 900px;
+
+}
+
+footer{
+    margin-bottom: 0;
+}
+
+
+
+
+/*############### Resposividade ####################*/
+
+
+/* Mobile Modernão */
+@media (min-width: 576px) {
+	.h2_contato{
+        padding: 20px;
+        background-color: #B5B484;
+        width:90px;
+        border-radius: 05px;
+        color: white;
+        margin: 50px 0 0px 25px;
+    
+    }
+}
+
+/* No celular de lado ou em um tablet */
+@media (min-width: 768px) {
+
+
+    .div-formulario{
+        max-width: 780px;
+        margin-bottom: 20px;
+        
+    }
+
+    .contato-lateral{
+        float: right;
+        width: 180px;
+        margin-top: -260px;
+        margin-right: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+       
+    }
+
+    .formulario{
+        width: 450px;
+        margin-left: 0;
+    }
+
+    .email,.nome,.area-texto{
+        width: 450px;
+    }
+
+    .divfooter{
+        height: 100%;
+        width: 100%;
+    }
+
+   footer{
+       margin-bottom: 0;
+   }
+
+  
+    
+	
+}
+
+/* Monitor Tubão */
+@media (min-width: 992px) {
+
+    
+.h2_contato{
+    padding: 20px;
+    background-color: #B5B484;
+    width:90px;
+    border-radius: 05px;
+    color: white;
+    margin: 50px 0 0px 45px;
+
+}
+
+    
+    .div-formulario{
+        max-width: 980px;
+        
+    }
+
+    .formulario{
+        width: 670px;
+        margin-left: 20px;
+    }
+
+    .email,.nome,.area-texto{
+        width: 650px;
+    }
+
+
+}
+
+/* Desktop tela normal de computador */
+@media (min-width: 1200px) {
+
+}
+
+/* SmartTV */
+@media (min-width: 1920px) {
+}
+
+
+
+

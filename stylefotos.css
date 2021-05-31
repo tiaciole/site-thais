@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+/* menu da pagina fotos */
+
+.h1-fotos{
+    margin: auto;
+    margin-top: 30px;
+    width: 400px;
+    text-align: center;
+    color: rgb(148, 123, 238);
+    font-family: 'Candal', sans-serif;
+    
+}
+.container-foto{
+    margin-top: 30px;
+}
+
+.card_img{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 15px;
+    position: static;
+
+}
+
+
+
+
+.small_img{
+    height: 100%;
+    cursor: pointer;
+    transition: all linear 0.3s;
+  
+    
+    
+
+
+}
+
+.small_img:hover{
+   filter: grayscale(100%);
+   transform: scale(1.1);
+   opacity: 0.5;
+   
+ 
+}
+
+.texto-foto{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 15px;
+    background-color: rgba(0, 0, 0, .7);
+    box-sizing: border-box;
+    z-index: 0;
+
+}
+
+.texto-foto p{
+    text-align: center;
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    
+    
+}
+
+.div_img1{
+    
+    margin-left: 0px;
+    margin-top: -124px;
+
+}
+
+
+
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* janela modal ######################################## */
+
+#janelaModal{
+    display:none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 30px;
+    margin-top: 20px;
+    bottom: 1px;
+    background-color: rgba(0, 0, 0, .7);
+    overflow: hidden;
+    z-index: 1;
+   
+
+}
+
+#modal_img{
+    margin: auto;
+    display: block;
+    width: 35vw;
+    min-width: 400px;
+    max-width: 600px;
+    margin-top: 50px;
+}
+
+#btFechar{
+    position: absolute;
+    top: 55px;
+    right: 35px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#btFechar:hover{
+    background-color: black;
+    color: white;
+ 
+}
+
+/*  ################### Responsividade ################*/
+
+@media (min-width: 1800px) {
+
+ 
+    
+    
+    
+    /* menu da pagina fotos */
+    
+   
+    
+    .card_img{
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+        margin: 15px;
+       
+    
+    }
+    
+    
+    
+    
+    .small_img{
+        height: 100%;
+        cursor: pointer;
+        transition: all linear 0.3s;
+      
+        
+        
+    
+    
+    }
+    
+    .small_img:hover{
+       filter: grayscale(100%);
+       transform: scale(1.1);
+       opacity: 0.5;
+       
+     
+    }
+    
+    .texto-foto{
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+        margin: 15px;
+        background-color: rgba(0, 0, 0, .7);
+        box-sizing: border-box;
+        z-index: 0;
+    
+    }
+    
+    .texto-foto p{
+        text-align: center;
+        margin-top: 60px;
+        font-weight: bold;
+        font-size: 25px;
+        color: white;
+        
+        
+    }
+    
+    .div_img1{
+        
+        margin-left: 0px;
+        margin-top: -124px;
+    
+    }
+    
+    
+    
+    .row{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    /* janela modal ######################################## */
+    
+    #janelaModal{
+        display:none;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        padding-top: 30px;
+        margin-top: 20px;
+        bottom: 1px;
+        background-color: rgba(0, 0, 0, .7);
+        overflow: hidden;
+        z-index: 1;
+       
+    
+    }
+    
+    #modal_img{
+        margin: auto;
+        display: block;
+        width: 35vw;
+        min-width: 400px;
+        max-width: 600px;
+        margin-top: 50px;
+    }
+    
+    #btFechar{
+        position: absolute;
+        top: 55px;
+        right: 35px;
+        color: white;
+        border: 1px solid white;
+        padding: 10px;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 1s;
+    }
+    
+    #btFechar:hover{
+        background-color: black;
+        color: white;
+     
+    }
+
+
+}
+
+
+
