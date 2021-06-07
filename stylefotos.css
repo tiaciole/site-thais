@@ -1,12 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-    
+  
 }
 
 
 
 /* menu da pagina fotos */
+
+
 
 .h1-fotos{
     margin: auto;
@@ -37,6 +39,7 @@
     height: 100%;
     cursor: pointer;
     transition: all linear 0.3s;
+  
   
     
     
@@ -151,6 +154,7 @@
         overflow: hidden;
         margin: 15px;
        
+       
     
     }
     
@@ -161,11 +165,7 @@
         height: 100%;
         cursor: pointer;
         transition: all linear 0.3s;
-      
-        
-        
-    
-    
+
     }
     
     .small_img:hover{
@@ -183,7 +183,8 @@
         margin: 15px;
         background-color: rgba(0, 0, 0, .7);
         box-sizing: border-box;
-        z-index: 0;
+        position: inherit;
+   
     
     }
     
@@ -201,6 +202,7 @@
         
         margin-left: 0px;
         margin-top: -124px;
+        
     
     }
     
@@ -255,6 +257,16 @@
         background-color: black;
         color: white;
      
+    }
+
+    .menujs{
+        float: right;
+        padding: 20px;  
+        background-color: rgb(228, 227, 227);
+        position: absolute !important;
+        right: 0px;
+        
+       
     }
 
 
