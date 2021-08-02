@@ -327,6 +327,17 @@ nav.menu li.tres-linhas{
     background-size: 100% 100%;
 }
 
+.img4{
+    height: 280px;
+    margin-top: 50px;
+    background-image: url("imagens/volume-brasileiro.png");
+    background-size: cover;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
 
 
 .txt1{
